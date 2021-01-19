@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        app:cardBackgroundColor= "@color/background_colour"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp"
+        android:layout_margin="7dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/etTaskDetails"
+                android:background="@android:color/transparent"
+                android:layout_width="50dp"
+                android:layout_weight="3"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                 />
+
+            <Button
+                android:id="@+id/btDone"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="0.5"
+                android:backgroundTint="@color/background_colour"
+                android:text="@string/done"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/ivStatus"
+                android:layout_marginTop="5dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="0"
+                app:srcCompat="@android:drawable/checkbox_off_background" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

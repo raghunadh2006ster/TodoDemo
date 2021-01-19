@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TodoDemoApp</string>
+    <string name="enter_task">Please Enter Task Details</string>
+    <string name="add_to_list_btn">ADD TO LIST</string>
+    <string name="delete_msg">Are you sure to delete this task?</string>
+    <string name="list_title">TO-DO LIST</string>
+    <string name="notasks_msg">No tasks available</string>
+    <string name="alert_yes">Yes</string>
+    <string name="alert_no">No</string>
+    <string name="done">Done</string>
+</resources>
