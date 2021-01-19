@@ -17,8 +17,7 @@ import android.widget.Toast;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity implements ListAdapter.DeleteTask {
-
-    // test git
+    
     EditText etTask;
     ArrayList<Data> tasks;
     ListView taskListView;
